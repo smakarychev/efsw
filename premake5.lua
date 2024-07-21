@@ -73,7 +73,6 @@ project "efsw"
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
 	systemversion "latest"
-	staticruntime "On"
 
 	if os.istarget("windows") then
 		osfiles = "src/efsw/platform/win/*.cpp"
