@@ -19,3 +19,6 @@ CMakeFiles/
 /.cache
 /efsw-test
 /efsw-test-stdc
+bin-int
+*.vcxproj
+*.filters
